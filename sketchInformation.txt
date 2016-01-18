@@ -1,0 +1,29 @@
+~~
+
+Arushi,
+
+Sorry, I couldn't access the original documentation and hence couldn't give it to you.The one seen below is a rough one.
+Depending on your system's architechture(32 bit or 64 bit), run the 'Inkspots.exe' file in 'application.windows32'/ 'application.windows64' folder.(the code is in their 'source' subfolder)I'll tell you about this in brief.Each node is a course(Math, science) and the graph shows the prerequisite relationships between them(e.g english is a prereq for science and so on).
+It also shows the extra info attached to each node on clicking. a node and its children can be isolated to analyze them separately.The nodes are displayed in a heirarchical manner as a tree.
+click on the whitespace and drag to view different portions of the graph.
+
+ishan
+~~
+
+This is the InkSpots Graph Visualizer built by Ishan Puranik in June 2014.
+The current version accepts a particular data format, and suits the needs of Snapwiz Edutech Inc, India 
+which is a subsidiary of Snapwiz Inc, USA, where I work as a summer intern(mid May 2014 - mid July 2014).
+The code skeleton can be altered to suit various input format and functionality requirements.
+Currently it comes with a set of basic functionalities :
+1. press 't' to toggle colour modes
+2. Press 'e' to show/ hide edges
+3. press 's' to store the current Frame as 'graph.png'
+4. nodes can be dragged using left mouse button
+5. nodes along with 1st level children can be dragged together using the right mouse button.
+6. The graph can be explored by dragging the mouse on the canvas.
+7. yellow lines show the children aand pink show the parents.
+
+
+for more details, you can view the 2-3 page documentation. It gives a better picture.
+Enjoy playing with it!
+For any queries, you can mail me at: ishanpuranik14 (at) gmail (dot) com
